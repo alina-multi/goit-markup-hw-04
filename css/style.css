@@ -103,7 +103,7 @@ section {
 .header {
   border-bottom: 1px solid #ececec;
 }
-.header .logo {
+.header a {
   display: inline-block;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -136,8 +136,8 @@ section {
 
 .site-nav .link {
   display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .item {
@@ -177,8 +177,8 @@ section {
 
 .contact .link {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   justify-content: center;
   align-items: center;
 }
@@ -656,11 +656,11 @@ section {
 }
 
 .portfolio-link {
-  display: block;
+  display: inline-block;
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
+.item .portfolio-link:hover,
+.item .portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
